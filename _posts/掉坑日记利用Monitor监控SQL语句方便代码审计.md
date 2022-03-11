@@ -1,8 +1,8 @@
 ---
-title: "[坑爹日记]利用Monitor监控SQL语句方便代码审计"
+title: "[掉坑日记]利用Monitor监控SQL语句方便代码审计"
 desc: TonyD0g
 date: 2022-02-22 11:55:38
-tags: 坑爹日记
+tags: 掉坑日记
 ---
 <font size=4 >
 

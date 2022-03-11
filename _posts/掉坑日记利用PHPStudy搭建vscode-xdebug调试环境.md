@@ -1,8 +1,8 @@
 ---
-title: "[坑爹日记]利用PHPStudy搭建vscode + xdebug调试环境"
+title: "[掉坑日记]利用PHPStudy搭建vscode + xdebug调试环境"
 desc: TonyD0g
 date: 2022-02-22 11:31:34
-tags: 坑爹日记
+tags: 掉坑日记
 ---
 <font size=4 >
 
