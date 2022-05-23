@@ -3,11 +3,11 @@ title: "[掉坑日记]利用Monitor监控SQL语句方便代码审计"
 desc: TonyD0g
 date: 2022-02-22 11:55:38
 tags: 掉坑日记
+toc: true
 ---
 <font size=4 >
 
-###### [版本0x1] 
-###### 2022-02-22
+<!-- more -->
 
 ## 源代码下载安装:
 MySQL-Monitor：https://github.com/cw1997/MySQL-Monitor

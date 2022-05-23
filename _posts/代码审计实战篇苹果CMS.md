@@ -3,11 +3,13 @@ title: "[代码审计]实战篇:苹果CMS 8.x版本"
 desc: TonyD0g
 date: 2022-02-23 11:30:26
 tags: 代码审计
+toc: true
 ---
 <font size=4 >
 
-###### [版本0x1] 
-###### 2022-02-22
+<!-- more -->
+
+[代码审计入门必看](https://xz.aliyun.com/t/3767#toc-0)
 
 ## 持续更新中ing
 

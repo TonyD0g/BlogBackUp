@@ -1,21 +1,19 @@
 ---
 title: "[内网安全]工具篇:CobaltStrike基础使用"
 desc: TonyD0g
-date: 2022-03-04 19:54:34
+date: 2022-03-22 19:54:34
 tags: 内网安全
+toc: true
 ---
 <font size=4 >
 
-###### [版本0x2] 
-###### 2022-03-04
-
-## 目录:
-1.Cobalt Strike简介及安装
-2.Cobalt Strike功能简介
-3.Cobalt Strike简单使用
-
+<!-- more -->
 
 # Cobalt Strike简介及安装
+
+[VPS搭建教程](https://www.baidu.com/link?url=XgrxY_oMH2eNO5oOn0_efadHCv0JMTJhzu6x_WMVUxTG7LGZ-HK5aJ3Y_SYZb2svlojwtCzkwt46HSb1GqJTwI6TgwyGEmmes-PjPM9xya3&wd=&eqid=b30d669f0000d0560000000662629d46)
+[配合视频](https://www.bilibili.com/video/av844361914/)
+[设置密码](https://suijimimashengcheng.bmcx.com/)
 
 ### 一、什么是Cobalt Strike
 
@@ -247,9 +245,20 @@ Remove 	删除
 Sleep 	指定被控端休眠时间，默认60秒一次回传，让被控端每10秒来下载一次任务。实际中频率不宜过快,容易被发现。
 Exit 	退出 
 ```
+# Cobalt Strike和Metasploit联动：
+[Cobalt Strike和Metasploit联动](https://www.cnblogs.com/nongchaoer/p/12055317.html)
 
+# Cobalt Strike流量隐藏：
+[cs特征隐藏](https://xz.aliyun.com/t/10653)
+[CobaltStrike特征隐藏](https://xz.aliyun.com/t/9542#toc-0)
+[填坑技巧-CDN隐藏C2](https://xz.aliyun.com/t/9616)
+[CDN及特征隐匿Cobalt Strike](https://xz.aliyun.com/t/11099#toc-0)
 
-## 学习来源:
+# 编写配置文件：
+[Cobalt Strike从入门到精通之定制配置文件进行高级攻击](https://www.baidu.com/link?url=5bTUalsxcc7Xw6JKNGsuYrUuUnk6IWfL1t8qRpvMLJoELqun1psBCpMq_h1ibd2NEYjRPEzK3UQQjjORnA1PglhPKgQCYkPiqEHjyAz40Ju&wd=&eqid=fb2006e60000bf4e0000000662663d08)
+[深入研究配置文件](https://xz.aliyun.com/t/2796)
+
+### 学习来源:
 ```
 网络(忘了哪了...)
 

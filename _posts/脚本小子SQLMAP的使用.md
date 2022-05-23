@@ -3,11 +3,11 @@ title: "[脚本小子]SQLMAP的使用"
 desc: TonyD0g
 date: 2022-01-05 23:16:35
 tags: 脚本小子
+toc: true
 ---
 <font size=4 >
 
-###### [版本0x1] 
-###### 2022-01-05
+<!-- more -->
 
 ## 1.常用指令:
 ```

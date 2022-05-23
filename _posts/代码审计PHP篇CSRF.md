@@ -3,16 +3,11 @@ title: "[代码审计]PHP篇:CSRF"
 desc: TonyD0g
 date: 2022-01-22 11:11:36
 tags: 代码审计
+toc: true
 ---
 <font size=4 >
 
-###### [版本0x2] 
-###### 2022-01-22
-
-## CSRF跨站请求伪造
-1.漏洞案例
-2.漏洞防范
-3.绕过技巧
+<!-- more -->
 
 ## 1.漏洞案例: (暂未复现,先不写)
 CMS官网：http://www.doccms.com

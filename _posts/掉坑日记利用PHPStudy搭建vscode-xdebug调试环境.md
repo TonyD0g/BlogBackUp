@@ -3,11 +3,12 @@ title: "[掉坑日记]利用PHPStudy搭建vscode + xdebug调试环境"
 desc: TonyD0g
 date: 2022-02-22 11:31:34
 tags: 掉坑日记
+toc: true
 ---
 <font size=4 >
 
-###### [版本0x1] 
-###### 2022-02-22
+
+<!-- more -->
 
 ## 前言:
 坑爹日记:
@@ -18,6 +19,12 @@ tags: 掉坑日记
 
 牢骚:
 代码审计真的太难了,审一个cms审了很久也挖不出漏洞,挫败感太强了,所以找了以前被挖穿的cms来复现看看,学下前辈们的思路和方法.最近更新速度下降了,是因为我没东西产出了,未来更新速度可能依旧会很慢(毕竟没东西产出,该产出的都一股脑输出了).因为学校突如其来的延期开学,我想着不能浪费差不多一个月的时间,所以就买了书学习,谁知道这快递速度真的感人,导致这几天我一直在等快递,心累┓(;´_｀)┏.
+
+## 小技巧:
+```
+修改debug中的变量大小:
+https://www.baidu.com/link?url=DJqbgSK3g4NZviIBkMEvYuZvIZC0zoJ8Cy_2TJ1XjJZGWj5fB3mqC7p6ytxSarvxZfsABwVdpoKdoCOq&wd=&eqid=c01377e70001d7de00000006624d51fb
+```
 
 ## 正文
 利用PHPStudy搭建xdebug调试环境 + vscode

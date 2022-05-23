@@ -6,6 +6,8 @@ tags: 脚本小子
 ---
 <font size=4 >
 
+<!-- more -->
+
 [NetCat工具的常用使用技巧](https://www.cnblogs.com/LyShark/p/12302379.html)
 
 </font>
